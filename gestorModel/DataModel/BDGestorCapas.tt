@@ -1,0 +1,11 @@
+<#@ template language="C#" debug="True" hostSpecific="True"                           #>
+<#@ output extension=".generated.cs"                                                  #>
+<#@ include file="$(ProjectDir)LinqToDB.Templates\LinqToDB.SqlServer.Tools.ttinclude" #>
+<#@ include file="$(ProjectDir)LinqToDB.Templates\PluralizationService.ttinclude"     #>
+<#
+	NamespaceName = "DataModel";
+
+	LoadSqlServerMetadata(@"DESKTOP-E8O5D44", "BDGestorCapas");
+
+	GenerateModel();
+#>
