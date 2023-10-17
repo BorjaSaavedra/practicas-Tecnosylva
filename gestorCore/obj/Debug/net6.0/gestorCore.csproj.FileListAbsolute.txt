@@ -1,0 +1,14 @@
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\bin\Debug\net6.0\gestorCore.exe
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\bin\Debug\net6.0\gestorCore.deps.json
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\bin\Debug\net6.0\gestorCore.runtimeconfig.json
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\bin\Debug\net6.0\gestorCore.dll
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\bin\Debug\net6.0\gestorCore.pdb
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\gestorCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\gestorCore.AssemblyInfoInputs.cache
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\gestorCore.AssemblyInfo.cs
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\gestorCore.csproj.CoreCompileInputs.cache
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\gestorCore.dll
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\refint\gestorCore.dll
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\gestorCore.pdb
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\gestorCore.genruntimeconfig.cache
+C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorCore\obj\Debug\net6.0\ref\gestorCore.dll
