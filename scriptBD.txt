@@ -1,0 +1,49 @@
+------------------------------------------------------------
+CREATE TABLE Usuarios 
+(
+	idUsuario uniqueidentifier PRIMARY KEY,
+	nombre nvarchar(50) NOT NULL,
+	apellido1 nvarchar(50) NOT NULL,
+	username nvarchar(50) NOT NULL,
+	email nvarchar(50) NOT NULL,
+	password nvarchar(150) NOT NULL,
+	borrado BIT DEFAULT 0,
+	idRol uniqueidentifier,
+	CONSTRAINT FK_Usuarios_Rol FOREIGN KEY(idRol) REFERENCES dbo.Roles(idRol),
+);
+-------------------------------------------------------------
+CREATE TABLE Capas 
+(
+	idCapa uniqueidentifier PRIMARY KEY,
+	idUsuarioCreador uniqueidentifier NOT NULL,
+	urlCapa nvarchar(150) NOT NULL, 
+
+);
+------------------------------------------------------------
+CREATE TABLE Roles 
+(
+	idRol uniqueidentifier PRIMARY KEY, 
+	nivel nvarchar(150) NOT NULL,
+);
+
+------------------------------------------------------------
+CREATE TABLE UsuarioCapa 
+(
+	idUsuario uniqueidentifier,
+	idCapa uniqueidentifier,
+	PRIMARY KEY (idUsuario,idCapa) 
+);
+-----------------------------------------------------------
+ALTER TABLE dbo.UsuarioCapa
+	ADD CONSTRAINT FK_Usuarios_Id FOREIGN KEY (idUsuario) 
+	REFERENCES dbo.Usuarios (idUsuario) 
+;
+
+ALTER TABLE dbo.UsuarioCapa
+	ADD CONSTRAINT FK_Capas_Id FOREIGN KEY (idCapa) 
+	REFERENCES dbo.Capas (idCapa) 
+;
+----------------------------------------------------------
+
+
+
