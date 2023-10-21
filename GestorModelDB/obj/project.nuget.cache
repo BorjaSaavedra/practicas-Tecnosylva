@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ubDHjPsTpbqlyZMZhT+1o2nxcL30U6vm8Kxj9glWFE8lxjQDtowZC5ZDa7qBkH0DSu7nPmp7EcmchH5OmRWItQ==",
+  "dgSpecHash": "ofKr85WF+8MXQxH1r+AxYDNvJO/VbYaSf7m5H4ZLylONbcu8EU0twQYczpaOhSr8qZ2zZzgecFRj5UjM24tqEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\alfon\\OneDrive\\Escritorio\\workspace\\Borja_23\\GestorModelDB\\GestorModelDB.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\alfon\\.nuget\\packages\\linq2db\\4.4.1\\linq2db.4.4.1.nupkg.sha512",
-    "C:\\Users\\alfon\\.nuget\\packages\\linq2db.sqlserver\\4.4.1\\linq2db.sqlserver.4.4.1.nupkg.sha512",
-    "C:\\Users\\alfon\\.nuget\\packages\\linq2db.t4models\\4.4.1\\linq2db.t4models.4.4.1.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
