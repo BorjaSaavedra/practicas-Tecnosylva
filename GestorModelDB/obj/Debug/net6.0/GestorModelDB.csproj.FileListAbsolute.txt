@@ -1,0 +1,17 @@
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\bin\Debug\net6.0\GestorModelDB.exe
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\bin\Debug\net6.0\GestorModelDB.deps.json
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\bin\Debug\net6.0\GestorModelDB.runtimeconfig.json
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\bin\Debug\net6.0\GestorModelDB.dll
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\bin\Debug\net6.0\GestorModelDB.pdb
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\bin\Debug\net6.0\linq2db.dll
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.csproj.AssemblyReference.cache
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.AssemblyInfoInputs.cache
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.AssemblyInfo.cs
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.csproj.CoreCompileInputs.cache
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.csproj.CopyComplete
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.dll
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\refint\GestorModelDB.dll
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.pdb
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\GestorModelDB.genruntimeconfig.cache
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\GestorModelDB\obj\Debug\net6.0\ref\GestorModelDB.dll
