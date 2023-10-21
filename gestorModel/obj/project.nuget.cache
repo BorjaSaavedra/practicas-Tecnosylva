@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jC86Zp4+sY8KLbdEdrJjo+zM3d8Q/vOYUBmhB7RmQG5u9PSFZ2mo3vc3P5Ijm4pBI4TfVFUQRs+5jPwUx149Ag==",
+  "dgSpecHash": "QmBbO+9DTokYLBWw2Qz2Jt4/qPnrrFd+5sHqYsY00UJ5KZjMbL3brO7RUidnvgbxwvs717/xlKLTxH8JI3CnFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\borja\\OneDrive\\Escritorio\\GestorCapas\\gestorModel\\gestorModel.csproj",
+  "projectFilePath": "C:\\Users\\alfon\\OneDrive\\Escritorio\\workspace\\Borja_23\\gestorModel\\gestorModel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\borja\\.nuget\\packages\\linq2db\\5.2.2\\linq2db.5.2.2.nupkg.sha512",
-    "C:\\Users\\borja\\.nuget\\packages\\linq2db.sqlserver\\5.2.2\\linq2db.sqlserver.5.2.2.nupkg.sha512",
-    "C:\\Users\\borja\\.nuget\\packages\\linq2db.t4models\\5.2.2\\linq2db.t4models.5.2.2.nupkg.sha512",
-    "C:\\Users\\borja\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "C:\\Users\\borja\\.nuget\\packages\\microsoft.sqlserver.types\\160.1000.6\\microsoft.sqlserver.types.160.1000.6.nupkg.sha512"
+    "C:\\Users\\alfon\\.nuget\\packages\\linq2db\\4.4.1\\linq2db.4.4.1.nupkg.sha512",
+    "C:\\Users\\alfon\\.nuget\\packages\\linq2db.sqlserver\\4.4.1\\linq2db.sqlserver.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }

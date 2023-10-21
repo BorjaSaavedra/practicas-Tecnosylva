@@ -3,3 +3,8 @@ C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorModel\obj\Debug\net6.0\gest
 C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorModel\obj\Debug\net6.0\gestorModel.AssemblyInfoInputs.cache
 C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorModel\obj\Debug\net6.0\gestorModel.AssemblyInfo.cs
 C:\Users\borja\OneDrive\Escritorio\GestorCapas\gestorModel\obj\Debug\net6.0\gestorModel.csproj.CoreCompileInputs.cache
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\gestorModel\obj\Debug\net6.0\gestorModel.csproj.AssemblyReference.cache
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\gestorModel\obj\Debug\net6.0\gestorModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\gestorModel\obj\Debug\net6.0\gestorModel.AssemblyInfoInputs.cache
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\gestorModel\obj\Debug\net6.0\gestorModel.AssemblyInfo.cs
+C:\Users\alfon\OneDrive\Escritorio\workspace\Borja_23\gestorModel\obj\Debug\net6.0\gestorModel.csproj.CoreCompileInputs.cache

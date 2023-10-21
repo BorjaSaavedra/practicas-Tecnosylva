@@ -15,12 +15,12 @@ using LinqToDB;
 using LinqToDB.Configuration;
 using LinqToDB.Mapping;
 
-namespace gestorModel.dataModel
+namespace dataModel
 {
 	/// <summary>
-	/// Database       : BDGestorCapas
-	/// Data Source    : DESKTOP-E8O5D44\SQLEXPRESS
-	/// Server Version : 16.00.1105
+	/// Database       : GestorCapas
+	/// Data Source    : (localdb)\MSSQLLocalDB
+	/// Server Version : 15.00.4153
 	/// </summary>
 	public partial class gestorContext : LinqToDB.Data.DataConnection
 	{
@@ -42,15 +42,15 @@ namespace gestorModel.dataModel
 			InitMappingSchema();
 		}
 
-		public gestorContext(DataOptions options)
+		public gestorContext(LinqToDBConnectionOptions options)
 			: base(options)
 		{
 			InitDataContext();
 			InitMappingSchema();
 		}
 
-		public gestorContext(DataOptions<gestorContext> options)
-			: base(options.Options)
+		public gestorContext(LinqToDBConnectionOptions<gestorContext> options)
+			: base(options)
 		{
 			InitDataContext();
 			InitMappingSchema();
@@ -98,14 +98,14 @@ namespace gestorModel.dataModel
 	[Table(Schema="dbo", Name="Usuarios")]
 	public partial class Usuario
 	{
-		[Column("idUsuario"), PrimaryKey, NotNull] public Guid   IdUsuario { get; set; } // uniqueidentifier
-		[Column("nombre"),                NotNull] public string Nombre    { get; set; } // nvarchar(50)
-		[Column("apellido1"),             NotNull] public string Apellido1 { get; set; } // nvarchar(50)
-		[Column("username"),              NotNull] public string Username  { get; set; } // nvarchar(50)
-		[Column("email"),                 NotNull] public string Email     { get; set; } // nvarchar(50)
-		[Column("password"),              NotNull] public string Password  { get; set; } // nvarchar(150)
-		[Column("borrado"),               NotNull] public bool   Borrado   { get; set; } // bit
-		[Column("idRol"),                 NotNull] public Guid   IdRol     { get; set; } // uniqueidentifier
+		[Column("idUsuario"), PrimaryKey,  NotNull] public Guid   IdUsuario { get; set; } // uniqueidentifier
+		[Column("nombre"),                 NotNull] public string Nombre    { get; set; } // nvarchar(50)
+		[Column("apellido1"),              NotNull] public string Apellido1 { get; set; } // nvarchar(50)
+		[Column("username"),               NotNull] public string Username  { get; set; } // nvarchar(50)
+		[Column("email"),                  NotNull] public string Email     { get; set; } // nvarchar(50)
+		[Column("password"),               NotNull] public string Password  { get; set; } // nvarchar(150)
+		[Column("borrado"),      Nullable         ] public bool?  Borrado   { get; set; } // bit
+		[Column("idRol"),        Nullable         ] public Guid?  IdRol     { get; set; } // uniqueidentifier
 
 		#region Associations
 
@@ -118,7 +118,7 @@ namespace gestorModel.dataModel
 		/// <summary>
 		/// FK_Usuarios_Rol (dbo.Roles)
 		/// </summary>
-		[Association(ThisKey="IdRol", OtherKey="IdRol", CanBeNull=false)]
+		[Association(ThisKey="IdRol", OtherKey="IdRol", CanBeNull=true)]
 		public Role Rol { get; set; }
 
 		#endregion

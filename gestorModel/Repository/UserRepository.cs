@@ -1,4 +1,4 @@
-﻿using DataModels;
+﻿using dataModel;
 using LinqToDB;
 using LinqToDB.Configuration;
 using LinqToDB.Data;
