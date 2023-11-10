@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\borja\\OneDrive\\Escritorio\\GestorCapas\\gestorModel\\gestorModel.csproj": {}
+    "C:\\Users\\borja\\OneDrive\\Escritorio\\PracticasTecnosylva\\gestorModel\\gestorModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\borja\\OneDrive\\Escritorio\\GestorCapas\\gestorModel\\gestorModel.csproj": {
+    "C:\\Users\\borja\\OneDrive\\Escritorio\\PracticasTecnosylva\\gestorModel\\gestorModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borja\\OneDrive\\Escritorio\\GestorCapas\\gestorModel\\gestorModel.csproj",
+        "projectUniqueName": "C:\\Users\\borja\\OneDrive\\Escritorio\\PracticasTecnosylva\\gestorModel\\gestorModel.csproj",
         "projectName": "gestorModel",
-        "projectPath": "C:\\Users\\borja\\OneDrive\\Escritorio\\GestorCapas\\gestorModel\\gestorModel.csproj",
+        "projectPath": "C:\\Users\\borja\\OneDrive\\Escritorio\\PracticasTecnosylva\\gestorModel\\gestorModel.csproj",
         "packagesPath": "C:\\Users\\borja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borja\\OneDrive\\Escritorio\\GestorCapas\\gestorModel\\obj\\",
+        "outputPath": "C:\\Users\\borja\\OneDrive\\Escritorio\\PracticasTecnosylva\\gestorModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,15 +47,19 @@
           "dependencies": {
             "Microsoft.SqlServer.Types": {
               "target": "Package",
-              "version": "[160.1000.6, )"
+              "version": "[14.0.1016.290, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[2.9.7, )"
             },
             "linq2db.SqlServer": {
               "target": "Package",
-              "version": "[5.2.2, )"
+              "version": "[2.9.7, )"
             },
             "linq2db.t4models": {
               "target": "Package",
-              "version": "[5.2.2, )"
+              "version": "[2.9.7, )"
             }
           },
           "imports": [
